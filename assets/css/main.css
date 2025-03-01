@@ -13,15 +13,13 @@
 /* Fonts */
 @font-face {
   font-family: 'AritaBuri';
-  src: url('assets\font\AritaBuriKR-SemiBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('C:\Users\duckb\Dropbox\MyDocuments\DK_25\3_연구실\ducklab\assets\font\AritaBuriKR-SemiBold.ttf') format('truetype');
 }
 
 :root {
   --default-font: "Inter",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Playfair Display", serif;
-  --heading-font-kor: "AritaBuri", serif;
+  --heading-font-kor: "Playfair Display", serif;
   --nav-font: "Montserrat",  sans-serif;
 }
 
