@@ -311,6 +311,10 @@ h6 {
   --background-color: rgba(21, 17, 13, 0.85);
 }
 
+.publication-page .header {
+  --background-color: rgba(21, 17, 13, 0.85); 
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1106,6 +1110,10 @@ section,
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
 }
 
 .gallery .gallery-item:hover img {
