@@ -11,15 +11,10 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
-@font-face {
-  font-family: 'AritaBuri';
-  src: url('C:\Users\duckb\Dropbox\MyDocuments\DK_25\3_연구실\ducklab\assets\font\AritaBuriKR-SemiBold.ttf') format('truetype');
-}
 
 :root {
   --default-font: "Inter",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Playfair Display", serif;
-  --heading-font-kor: "Playfair Display", serif;
+  --heading-font: "Playfair Display", "Noto Serif KR", serif;
   --nav-font: "Montserrat",  sans-serif;
 }
 
@@ -87,14 +82,10 @@ h1,
 h2,
 h3,
 h4,
+h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-}
-
-h5 {
-  color: var(--heading-color);
-  font-family: var(--heading-font-kor);
 }
 
 /* Pulsating Play Button
@@ -783,20 +774,6 @@ section,
   font-family: var(--default-font);
 }
 
-.section-title h5 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  padding: 8px 20px;
-  margin: 0;
-  background: color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  display: inline-block;
-  text-transform: uppercase;
-  border-radius: 50px;
-  font-family: var(--default-font);
-}
-
 .section-title div {
   color: var(--heading-color);
   margin: 10px 0 0 0;
@@ -879,23 +856,6 @@ section,
   }
 }
 
-.home h5 {
-  margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
-  animation: fadeInDown 1s both;
-}
-
-.home h5 span {
-  color: var(--accent-color);
-}
-
-@media (max-width: 768px) {
-  .home h5 {
-    font-size: 30px;
-  }
-}
-
 .home p {
   animation: fadeInDown 1s both 0.2s;
 }
@@ -903,14 +863,6 @@ section,
 @media (min-width: 1024px) {
 
   .home h2,
-  .home p {
-    max-width: 60%;
-  }
-}
-
-@media (min-width: 1024px) {
-
-  .home h5,
   .home p {
     max-width: 60%;
   }
