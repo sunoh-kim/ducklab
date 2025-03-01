@@ -786,13 +786,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Home Section
 --------------------------------------------------------------*/
-.hero {
+.home {
   padding: 0;
 }
 
-.hero .carousel {
+.home .carousel {
   width: 100%;
   min-height: 100vh;
   padding: 0;
@@ -801,7 +801,7 @@ section,
   position: relative;
 }
 
-.hero img {
+.home img {
   position: absolute;
   inset: 0;
   display: block;
@@ -811,7 +811,7 @@ section,
   z-index: 1;
 }
 
-.hero .carousel-item {
+.home .carousel-item {
   position: absolute;
   inset: 0;
   background-size: cover;
@@ -820,7 +820,7 @@ section,
   overflow: hidden;
 }
 
-.hero .carousel-item:before {
+.home .carousel-item:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 50%);
   position: absolute;
@@ -828,7 +828,7 @@ section,
   z-index: 2;
 }
 
-.hero .carousel-container {
+.home .carousel-container {
   position: absolute;
   inset: 90px 64px 64px 64px;
   display: flex;
@@ -838,36 +838,36 @@ section,
   z-index: 3;
 }
 
-.hero h2 {
+.home h2 {
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
   animation: fadeInDown 1s both;
 }
 
-.hero h2 span {
+.home h2 span {
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .home h2 {
     font-size: 30px;
   }
 }
 
-.hero p {
+.home p {
   animation: fadeInDown 1s both 0.2s;
 }
 
 @media (min-width: 1024px) {
 
-  .hero h2,
-  .hero p {
+  .home h2,
+  .home p {
     max-width: 60%;
   }
 }
 
-.hero .btn-get-started {
+.home .btn-get-started {
   color: var(--contrast-color);
   font-weight: 500;
   font-size: 15px;
@@ -881,47 +881,47 @@ section,
   border: 2px solid var(--accent-color);
 }
 
-.hero .btn-get-started:hover {
+.home .btn-get-started:hover {
   background: var(--accent-color);
 }
 
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
+.home .carousel-control-prev,
+.home .carousel-control-next {
   width: 10%;
   transition: 0.3s;
   opacity: 0.5;
 }
 
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
+.home .carousel-control-prev:focus,
+.home .carousel-control-next:focus {
   opacity: 0.5;
 }
 
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
+.home .carousel-control-prev:hover,
+.home .carousel-control-next:hover {
   opacity: 0.9;
 }
 
 @media (min-width: 1024px) {
 
-  .hero .carousel-control-prev,
-  .hero .carousel-control-next {
+  .home .carousel-control-prev,
+  .home .carousel-control-next {
     width: 5%;
   }
 }
 
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
+.home .carousel-control-next-icon,
+.home .carousel-control-prev-icon {
   background: none;
   font-size: 32px;
   line-height: 1;
 }
 
-.hero .carousel-indicators {
+.home .carousel-indicators {
   list-style: none;
 }
 
-.hero .carousel-indicators li {
+.home .carousel-indicators li {
   cursor: pointer;
 }
 
@@ -950,44 +950,44 @@ section,
 }
 
 /*--------------------------------------------------------------
-# About Section
+# News Section
 --------------------------------------------------------------*/
-.about .content h3 {
+.news .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
 }
 
-.about .content ul {
+.news .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.news .content ul li {
   padding: 10px 0 0 0;
   display: flex;
 }
 
-.about .content ul i {
+.news .content ul i {
   color: var(--accent-color);
   margin-right: 0.5rem;
   line-height: 1.2;
   font-size: 1.25rem;
 }
 
-.about .content p:last-child {
+.news .content p:last-child {
   margin-bottom: 0;
 }
 
-.about .pulsating-play-btn {
+.news .pulsating-play-btn {
   position: absolute;
   left: calc(50% - 47px);
   top: calc(50% - 47px);
 }
 
 /*--------------------------------------------------------------
-# Why Us Section
+# Research Section
 --------------------------------------------------------------*/
-.why-us .card-item {
+.research .card-item {
   background: color-mix(in srgb, var(--default-color), transparent 97%);
   padding: 50px 30px;
   transition: all ease-in-out 0.3s;
@@ -995,149 +995,55 @@ section,
   position: relative;
 }
 
-.why-us .card-item span {
+.research .card-item span {
   color: var(--accent-color);
   display: block;
   font-size: 28px;
   font-weight: 700;
 }
 
-.why-us .card-item h4 {
+.research .card-item h4 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
 }
 
-.why-us .card-item h4 a {
+.research .card-item h4 a {
   color: var(--heading-color);
 }
 
-.why-us .card-item p {
+.research .card-item p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0;
   padding: 0;
 }
 
-.why-us .card-item:hover {
+.research .card-item:hover {
   background: var(--accent-color);
   padding: 30px 30px 70px 30px;
 }
 
-.why-us .card-item:hover span,
-.why-us .card-item:hover h4 a,
-.why-us .card-item:hover p {
+.research .card-item:hover span,
+.research .card-item:hover h4 a,
+.research .card-item:hover p {
   color: var(--contrast-color);
 }
 
-/*--------------------------------------------------------------
-# Menu Section
---------------------------------------------------------------*/
-.menu .menu-filters {
-  padding: 0;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-  border-radius: 50px;
-}
-
-.menu .menu-filters li {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  margin-bottom: 10px;
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 12px 10px 12px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1;
-  transition: all ease-in-out 0.3s;
-  font-family: var(--heading-font);
-}
-
-.menu .menu-filters li:hover,
-.menu .menu-filters li.filter-active {
-  color: var(--accent-color);
-}
-
-.menu .menu-filters li:last-child {
-  margin-right: 0;
-}
-
-.menu .menu-item {
-  margin-top: 50px;
-  position: relative;
-}
-
-.menu .menu-img {
-  width: 80px;
-  border-radius: 50%;
-  float: left;
-  border: 8px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.menu .menu-content {
-  margin-left: 95px;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-
-.menu .menu-content::after {
-  content: "......................................................................" "...................................................................." "....................................................................";
-  position: absolute;
-  left: 20px;
-  right: 0;
-  top: -4px;
-  z-index: 1;
-  color: color-mix(in srgb, var(--default-color), transparent 60%);
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-.menu .menu-content a {
-  color: var(--heading-color);
-  background: var(--background-color);
-  padding-right: 10px;
-  position: relative;
-  z-index: 3;
-  font-weight: 700;
-  transition: 0.3s;
-}
-
-.menu .menu-content a:hover {
-  color: var(--accent-color);
-}
-
-.menu .menu-content span {
-  background: var(--background-color);
-  color: var(--accent-color);
-  position: relative;
-  z-index: 3;
-  padding: 0 10px;
-  font-weight: 600;
-}
-
-.menu .menu-ingredients {
-  margin-left: 95px;
-  font-style: italic;
-  font-size: 14px;
-  font-family: var(--nav-font);
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
-}
 
 /*--------------------------------------------------------------
-# Specials Section
+# People Section
 --------------------------------------------------------------*/
-.specials {
+.people {
   overflow: hidden;
 }
 
-.specials .nav-tabs {
+.people .nav-tabs {
   border: 0;
 }
 
-.specials .nav-link {
+.people .nav-link {
   border: 0;
   padding: 12px 15px 12px 0;
   transition: 0.3s;
@@ -1148,206 +1054,44 @@ section,
   font-size: 15px;
 }
 
-.specials .nav-link:hover {
+.people .nav-link:hover {
   color: var(--accent-color);
 }
 
-.specials .nav-link.active {
+.people .nav-link.active {
   color: var(--accent-color);
   border-color: var(--accent-color);
   background-color: var(--background-color);
 }
 
-.specials .tab-pane.active {
+.people .tab-pane.active {
   animation: fadeIn 0.5s ease-out;
 }
 
-.specials .details h3 {
+.people .details h3 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.specials .details p {
+.people .details p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.specials .details p:last-child {
+.people .details p:last-child {
   margin-bottom: 0;
 }
 
 @media (max-width: 992px) {
-  .specials .nav-link {
+  .people .nav-link {
     border: 0;
     padding: 15px;
   }
 
-  .specials .nav-link.active {
+  .people .nav-link.active {
     color: var(--accent-color);
     background: var(--accent-color);
   }
-}
-
-/*--------------------------------------------------------------
-# Events Section
---------------------------------------------------------------*/
-.events {
-  --default-color: #ffffff;
-  --background-color: #000000;
-  --heading-color: #ffffff;
-  padding: 80px 0;
-  position: relative;
-}
-
-.events .slider-bg {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.events:before {
-  content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 30%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-.events .section-title h2 {
-  color: #ffffff;
-}
-
-.events .container {
-  position: relative;
-  z-index: 3;
-}
-
-.events .event-item h3 {
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.events .event-item .price {
-  font-size: 26px;
-  font-family: var(--default-font);
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.events .event-item .price span {
-  border-bottom: 2px solid var(--accent-color);
-}
-
-.events .event-item ul {
-  list-style: none;
-  padding: 0;
-}
-
-.events .event-item ul li {
-  padding-bottom: 10px;
-}
-
-.events .event-item ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: var(--accent-color);
-}
-
-.events .event-item p:last-child {
-  margin-bottom: 0;
-}
-
-.events .swiper-wrapper {
-  height: auto;
-}
-
-.events .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 70%);
-  opacity: 1;
-}
-
-.events .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
-
-/*--------------------------------------------------------------
-# Book A Table Section
---------------------------------------------------------------*/
-.book-a-table .reservation-img {
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-}
-
-.book-a-table .reservation-form-bg {
-  background: color-mix(in srgb, var(--default-color), transparent 97%);
-}
-
-.book-a-table .php-email-form {
-  padding: 30px;
-}
-
-@media (max-width: 575px) {
-  .book-a-table .php-email-form {
-    padding: 20px;
-  }
-}
-
-.book-a-table .php-email-form input[type=text],
-.book-a-table .php-email-form input[type=email],
-.book-a-table .php-email-form input[type=number],
-.book-a-table .php-email-form input[type=date],
-.book-a-table .php-email-form input[type=time],
-.book-a-table .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 20%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.book-a-table .php-email-form input[type=text]:focus,
-.book-a-table .php-email-form input[type=email]:focus,
-.book-a-table .php-email-form input[type=number]:focus,
-.book-a-table .php-email-form input[type=date]:focus,
-.book-a-table .php-email-form input[type=time]:focus,
-.book-a-table .php-email-form textarea:focus {
-  border-color: var(--accent-color);
-}
-
-.book-a-table .php-email-form input[type=text]::placeholder,
-.book-a-table .php-email-form input[type=email]::placeholder,
-.book-a-table .php-email-form input[type=number]::placeholder,
-.book-a-table .php-email-form input[type=date]::placeholder,
-.book-a-table .php-email-form input[type=time]::placeholder,
-.book-a-table .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.book-a-table .php-email-form button[type=submit] {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  padding: 14px 60px;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
 /*--------------------------------------------------------------
@@ -1367,197 +1111,6 @@ section,
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# Chefs Section
---------------------------------------------------------------*/
-.chefs .member {
-  position: relative;
-}
-
-.chefs .member .pic {
-  overflow: hidden;
-  margin-bottom: 50px;
-}
-
-.chefs .member .member-info {
-  background-color: var(--surface-color);
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  bottom: -50px;
-  left: 20px;
-  right: 20px;
-  padding: 20px 15px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.chefs .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  position: relative;
-  padding-bottom: 10px;
-  font-family: var(--default-font);
-}
-
-.chefs .member h4::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: color-mix(in srgb, var(--default-color), transparent 60%);
-  bottom: 0;
-  left: 0;
-}
-
-.chefs .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.chefs .member .social {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-}
-
-.chefs .member .social a {
-  transition: color 0.3s;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.chefs .member .social a:hover {
-  color: var(--accent-color);
-}
-
-.chefs .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials {
-  padding: 80px 0;
-  position: relative;
-}
-
-.testimonials:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
-.testimonials .testimonials-bg {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.testimonials .container {
-  position: relative;
-  z-index: 3;
-}
-
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-  text-align: center;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 100px;
-  border-radius: 50%;
-  border: 6px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  margin: 0 auto;
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  margin: 0 0 15px 0;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-}
-
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
-
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 auto 15px auto;
-}
-
-.testimonials .swiper-wrapper {
-  height: auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 50%);
-  opacity: 0.5;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--default-color);
-  opacity: 1;
-}
-
-@media (min-width: 992px) {
-  .testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
 
 /*--------------------------------------------------------------
 # Contact Section
