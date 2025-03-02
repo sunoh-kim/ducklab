@@ -1092,7 +1092,7 @@ section,
 # People Section
 --------------------------------------------------------------*/
 #people {
-  scroll-margin-top: 80px !important; /* 다른 섹션과 맞추기 */
+  scroll-margin-top: 40px !important; /* 다른 섹션과 맞추기 */
 }
 
 
