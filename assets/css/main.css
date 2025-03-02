@@ -1221,9 +1221,9 @@ section,
 }
 
 .publications .badge.vision { background-color: #F4A7B9; } 
-.publications .badge.nlp { background-color: #A7C7E7; } 
-.publications .badge.ml { background-color: #A8E6CF; }
-.publications .badge.etc { background-color: #FFDAB9; } 
+.publications .badge.nlp { background-color: #81C784; } 
+.publications .badge.ml { background-color: #A7C7E7 }
+.publications .badge.etc { background-color: #BDBDBD; } 
 
 .publications .legend {
   display: flex;
