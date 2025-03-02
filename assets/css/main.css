@@ -1202,12 +1202,15 @@ section,
 }
 
 .publication-list h5 a {
-  color: #000;
+  color: #000; /* 기본 검정색 */
   text-decoration: none;
+  transition: all 0.3s ease-in-out; /* 부드러운 애니메이션 */
 }
 
 .publication-list h5 a:hover {
-  text-decoration: underline;
+  color: #ffb03b; /* 호버 시 주황색 */
+  text-decoration: none; /* 밑줄 유지 안 함 */
+  transform: scale(1.05); /* 1.05배 확대 */
 }
 
 .publications .publication-list p {
