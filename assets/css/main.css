@@ -1198,7 +1198,7 @@ section,
 
 .publications .publication-list h5 {
   margin: 10px 0 5px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .publication-list h5 a {
@@ -1210,7 +1210,6 @@ section,
 .publication-list h5 a:hover {
   color: #ffb03b; /* 호버 시 주황색 */
   text-decoration: none; /* 밑줄 유지 안 함 */
-  transform: scale(1.1); /* 1.05배 확대 */
 }
 
 .publications .publication-list p {
