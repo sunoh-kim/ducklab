@@ -345,13 +345,23 @@ h6 {
   --background-color: rgba(21, 17, 13, 0.85);
 }
 
-/* Publication Page
+/* Publications Page
 ------------------------------*/
-.publication-page .header {
+.publications-page .header {
   --background-color: rgba(21, 17, 13, 0.85); 
 }
 
-.publication-page .main {
+.publications-page .main {
+  padding-top: 80px; /* 헤더 높이만큼 조정 */
+}
+
+/* Projects Page
+------------------------------*/
+.projects-page .header {
+  --background-color: rgba(21, 17, 13, 0.85); 
+}
+
+.projects-page .main {
   padding-top: 80px; /* 헤더 높이만큼 조정 */
 }
 
