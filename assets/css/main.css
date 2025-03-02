@@ -1150,11 +1150,13 @@ section,
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 반응형 균일 정렬 */
   gap: 10px; /* 이미지 간격 */
   justify-content: center; /* 중앙 정렬 */
+  width: 80%; /* 전체 너비 제한 */
+  margin: 0 auto; /* 가로 중앙 정렬 */
 }
 
 .gallery .gallery-item {
   width: 100%;
-  aspect-ratio: 16 / 10; /* 모든 이미지 동일 비율 유지 */
+  aspect-ratio: 4 / 3; /* 모든 이미지 동일 비율 유지 */
   overflow: hidden;
   display: flex;
   align-items: center;
