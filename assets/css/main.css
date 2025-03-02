@@ -1215,10 +1215,10 @@ section,
   margin-bottom: 5px;
 }
 
-.publications .badge.vision { background-color: #2D79C7; }  /* 블루 */
-.publications .badge.nlp { background-color: #E74C3C; }    /* 레드 */
-.publications .badge.ml { background-color: #2ECC71; }     /* 그린 */
-.publications .badge.etc { background-color: #7F8C8D; }    /* 그레이 */
+.publications .badge.vision { background-color: #F4A7B9; } 
+.publications .badge.nlp { background-color: #A7C7E7; } 
+.publications .badge.ml { background-color: #A8E6CF; }
+.publications .badge.etc { background-color: #FFDAB9; } 
 
 .publications .legend {
   margin-bottom: 15px;
