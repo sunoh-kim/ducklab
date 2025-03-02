@@ -1121,18 +1121,8 @@ section,
 }
 
 .people .tab-pane.active {
-  animation: none !important;
-  /* animation: fadeIn 0.5s ease-out; */
+  animation: fadeIn 0.5s ease-out;
 }
-
-.people .tab-content {
-  min-height: 400px;
-}
-
-.people img {
-  min-height: 200px;
-}
-
 
 .people .details h3 {
   font-size: 26px;
@@ -1194,6 +1184,49 @@ section,
   left: calc(50% - 47px);
   top: calc(50% - 47px);
 }
+
+
+.publications .publication-list {
+  list-style: none;
+  padding: 0;
+}
+
+.publications .publication-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.publications .publication-list h5 {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.publications .publication-list p {
+  margin: 0;
+}
+
+.publications .badge {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.publications .badge.vision { background-color: #2D79C7; }  /* 블루 */
+.publications .badge.nlp { background-color: #E74C3C; }    /* 레드 */
+.publications .badge.ml { background-color: #2ECC71; }     /* 그린 */
+.publications .badge.etc { background-color: #7F8C8D; }    /* 그레이 */
+
+.publications .legend {
+  margin-bottom: 15px;
+}
+.publications .legend .badge {
+  margin-right: 10px;
+}
+
 
 
 /*--------------------------------------------------------------
