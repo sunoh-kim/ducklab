@@ -1091,11 +1091,6 @@ section,
 /*--------------------------------------------------------------
 # People Section
 --------------------------------------------------------------*/
-#people {
-  scroll-margin-top: 40px !important; /* 다른 섹션과 맞추기 */
-}
-
-
 .people {
   overflow: hidden;
 }
@@ -1126,8 +1121,18 @@ section,
 }
 
 .people .tab-pane.active {
-  animation: fadeIn 0.5s ease-out;
+  animation: none !important;
+  /* animation: fadeIn 0.5s ease-out; */
 }
+
+.people .tab-content {
+  min-height: 400px;
+}
+
+.people img {
+  min-height: 200px;
+}
+
 
 .people .details h3 {
   font-size: 26px;
