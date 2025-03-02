@@ -59,6 +59,41 @@
 }
 
 /*--------------------------------------------------------------
+# Custom Scrollbar Styling
+--------------------------------------------------------------*/
+
+/* 스크롤바 전체 */
+::-webkit-scrollbar {
+  width: 8px; /* 세로 스크롤바 너비 */
+  height: 8px; /* 가로 스크롤바 높이 */
+}
+
+/* 스크롤바 트랙 (배경) */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05); /* 연한 회색 (눈에 덜 띄게) */
+  border-radius: 10px;
+}
+
+/* 스크롤바 핸들 (움직이는 부분) */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* 반투명 블랙 */
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* 마우스 올릴 때 효과 */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4); /* 살짝 진해짐 */
+}
+
+/* 가로 스크롤바 숨기기 (세로 스크롤만 보이게) */
+body {
+  overflow-x: hidden;
+}
+
+
+
+/*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
@@ -1147,12 +1182,14 @@ section,
 --------------------------------------------------------------*/
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 반응형 균일 정렬 */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 반응형 정렬 */
   gap: 10px; /* 이미지 간격 */
   justify-content: center; /* 중앙 정렬 */
-  width: 80%; /* 전체 너비 제한 */
+  width: 100%; /* 전체 너비 확장 */
+  max-width: 1200px; /* 너무 넓어지지 않도록 제한 */
   margin: 0 auto; /* 가로 중앙 정렬 */
 }
+
 
 .gallery .gallery-item {
   width: 100%;
