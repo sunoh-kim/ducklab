@@ -1220,16 +1220,16 @@ section,
 }
 
 .publications .badge.vision { background-color: #F4A7B9; } 
-.publications .badge.nlp { background-color: #81C784; } 
+.publications .badge.nlp { background-color: #B2DFB2; } 
 .publications .badge.ml { background-color: #A7C7E7 }
 .publications .badge.etc { background-color: #BDBDBD; } 
 
 .publications .legend {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
+  justify-content: flex-start;
+  gap: 10px; 
+  flex-wrap: wrap; 
+  margin-bottom: 15px; 
 }
 
 .publications .legend .badge {
