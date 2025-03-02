@@ -1222,6 +1222,7 @@ section,
 .publications .badge.nlp { background-color: #B2DFB2; } 
 .publications .badge.ml { background-color: #91BFE2 }
 .publications .badge.etc { background-color: #BDBDBD; } 
+.publications .badge.project { background-color: #F4C391; } 
 
 .publications .legend {
   margin-bottom: 15px; 
