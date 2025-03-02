@@ -1,2 +1,1 @@
-Pro version
-License: https://bootstrapmade.com/license/
+Pro version (License: https://bootstrapmade.com/license/)

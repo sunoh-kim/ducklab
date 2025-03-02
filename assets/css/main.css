@@ -70,27 +70,26 @@
 
 /* 스크롤바 트랙 (배경) */
 ::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.05); /* 연한 회색 (눈에 덜 띄게) */
+  background: color-mix(in srgb, var(--background-color), transparent 50%);
   border-radius: 10px;
 }
 
 /* 스크롤바 핸들 (움직이는 부분) */
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2); /* 반투명 블랙 */
+  background: color-mix(in srgb, var(--default-color), transparent 70%);
   border-radius: 10px;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease;
 }
 
-/* 마우스 올릴 때 효과 */
+/* 스크롤바 핸들 호버 효과 */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.4); /* 살짝 진해짐 */
+  background: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-/* 가로 스크롤바 숨기기 (세로 스크롤만 보이게) */
-body {
-  overflow-x: hidden;
+/* 스크롤바 모양을 더욱 감각적으로 만들고 싶다면 */
+::-webkit-scrollbar-thumb:active {
+  background: var(--accent-color);
 }
-
 
 
 /*--------------------------------------------------------------
@@ -1180,16 +1179,6 @@ section,
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 반응형 정렬 */
-  gap: 10px; /* 이미지 간격 */
-  justify-content: center; /* 중앙 정렬 */
-  width: 100%; /* 전체 너비 확장 */
-  max-width: 1200px; /* 너무 넓어지지 않도록 제한 */
-  margin: 0 auto; /* 가로 중앙 정렬 */
-}
-
 
 .gallery .gallery-item {
   width: 100%;
