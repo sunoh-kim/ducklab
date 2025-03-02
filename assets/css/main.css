@@ -1210,7 +1210,7 @@ section,
 .publication-list h5 a:hover {
   color: #ffb03b; /* 호버 시 주황색 */
   text-decoration: none; /* 밑줄 유지 안 함 */
-  transform: scale(1.05); /* 1.05배 확대 */
+  transform: scale(1.1); /* 1.05배 확대 */
 }
 
 .publications .publication-list p {
@@ -1271,21 +1271,6 @@ section,
 .gallery .gallery-item:hover img {
   transform: scale(1.1); /* 호버 시 확대 효과 */
 }
-
-
-/* .gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid var(--background-color);
-  border-bottom: 3px solid var(--background-color);
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-} */
 
 
 /*--------------------------------------------------------------
