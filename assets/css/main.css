@@ -1205,6 +1205,11 @@ section,
   margin: 0;
 }
 
+.publications .section-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
 .publications .badge {
   padding: 5px 10px;
   font-size: 14px;
@@ -1221,8 +1226,13 @@ section,
 .publications .badge.etc { background-color: #FFDAB9; } 
 
 .publications .legend {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
   margin-bottom: 15px;
 }
+
 .publications .legend .badge {
   margin-right: 10px;
 }
