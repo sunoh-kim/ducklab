@@ -1,6 +1,4 @@
 /**
-* Template Name: Delicious
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
 * Updated: Aug 07 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -352,16 +350,6 @@ h6 {
 }
 
 .publications-page .main {
-  padding-top: 80px; /* 헤더 높이만큼 조정 */
-}
-
-/* Projects Page
-------------------------------*/
-.projects-page .header {
-  --background-color: rgba(21, 17, 13, 0.85); 
-}
-
-.projects-page .main {
   padding-top: 80px; /* 헤더 높이만큼 조정 */
 }
 
@@ -1198,7 +1186,7 @@ section,
 
 .publications .publication-list h5 {
   margin: 10px 0 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .publication-list h5 a {
